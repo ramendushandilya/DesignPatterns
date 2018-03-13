@@ -2,6 +2,7 @@ package creational.factory;
 
 public class ShapeFactory {
 
+    // Gets the class implementation of the shape interface based on the type passed in the method
     public IShape getShape(String shapeType) {
 
         if(shapeType == null) {
