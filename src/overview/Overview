@@ -1,0 +1,56 @@
+* Design patterns represent the best practices used by experienced developer. Design patterns are solutions to general
+problems that software developers faces during software development. These solutions were obtained by trial and error by
+numerous software developers over quite a substantial period of time.
+
+* Gang Of Four
+    + In 1994, four authors Erich Gamma, Richard Helm, Ralph Johnson and John published a book titled "Design Patterns
+    - Element of Reusable Object Oriented Software" which initiated the concept of design pattern in software development.
+    These authors are collectively known as Gang Of Four (GOF). According to these authors design patterns are primarily
+    based on the following principles of Object Oriented Design
+        => Program to an interface, not an implementation
+        => Favor object composition over inheritance
+
+* Types of Design Patterns
+    + According to the book above, there are 23 design patterns which can be classified in three categories.
+
+        => Creational : These patterns provide a way to create object while hiding the creation logic, rather than
+        instantiating object directly using new operator. This gives program more flexibility in deciding which objects
+        need to be created for a given use case.
+        => Structural : These patterns concern class and object composition. Concept of inheritance is used to compose
+        interfaces and define ways to compose objects to obtain new functionalities.
+        => Behavioral : These patterns are specifically concerned with communication between object.
+        => J2EE patterns : These patterns are specifically concerned with the presentation tier. These patterns are
+        identified by sun Java center.
+
+* List of Design patterns under each category
+
+    + Creational Design Patterns
+        => Factory
+        => Abstract Factory
+        => Singleton
+        => Prototype
+        => Builder
+        => Object Pool
+
+    + Structural Design Patterns
+        => Adapter
+        => Bridge
+        => Composite
+        => Decorator
+        => Facade
+        => Flyweight
+        => Proxy
+
+    + Behavioral Design Patterns
+        => Chain Of Responsibility
+        => Command
+        => Interpreter
+        => Iterator
+        => Mediator
+        => Memento
+        => Observer
+        => State
+        => Strategy
+        => Template
+        => Visitor
+
